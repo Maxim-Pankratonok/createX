@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Catalog</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230521180340">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll data-scroll-show class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<div class="header__main">
+						<a href="" class="header__logo"><img src="img/logo.svg" alt=""></a>
+						<div class="header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="#" class="menu__link active">Women</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Men</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Girls</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Boys</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link"><span>Sale</span></a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="header__search">
+						<div class="search-form">
+							<button type="submit" class="search-form__icon _icon-search"></button>
+							<form action="#" class="search-form__item">
+								<input autocomplete="off" type="text" name="form[]" placeholder="Search for products..." class="search-form__input">
+								<button type="submit" class="search-form__button _icon-search"></button>
+							</form>
+						</div>
+					</div>
+					<div class="header__actions actions-header">
+						<a href="#" class="actions-header__link _icon-favorite"></a>
+						<a href="#" class="actions-header__link _icon-cart"></a>
+					</div>
+					<button type="button" class="icon-menu"><span></span></button>
+				</div>
+			</div>
+
+		</header>
+		<main class="page page_inner">
+			<section class="page__offers offers">
+				<div class="offers__container">
+					<div class="offers__block">
+						<div class="offers__arrow _icon-arrow-left"></div>
+						<a href="#" class="offers__link">Up to 70% Off.<span>Shop our latest sale styles</span></a>
+						<div class="offers__arrow _icon-arrow-right"></div>
+					</div>
+				</div>
+			</section>
+			<div class="page__header">
+				<div class="page__container">
+					<nav class="page__breadcrumbs breadcrumps">
+						<ul class="breadcrumbs__list">
+							<li class="breadcrumbs__item">
+								<a href="" class="breadcrumbs__link">Home</a>
+							</li>
+							<li class="breadcrumbs__item">
+								<a href="" class="breadcrumbs__link">Women</a>
+							</li>
+							<li class="breadcrumbs__item">
+								<span href="" class="breadcrumbs__current">Clothes</span>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="catalog">
+				<div class="catalog__container">
+					<div class="catalog__body">
+						<div class="catalog__filter filter-catalog">
+							<button type="button" class="filter-catalog__button _icon-filter">Hide filters</button>
+							<div data-spollers class="filter-catalog__items">
+								<div class="filter-catalog__item item-filter-catalog">
+									<button type="button" data-spoller class="price-filter__title _icon-spoller">Clothes</button>
+									<div class="catalog__item">
+										<div class="catalog__search">
+											<form action="#" class="catalog-search">
+												<input type="text" name="form[email]" data-error="Error" placeholder="Search the clothes type" class="catalog-search__input">
+												<button type="submit" class="filter-catalog-search__button _icon-search"></button>
+											</form>
+										</div>
+										<div class="item-filter-catalog__body">
+											<div class="item-filter-catalog__checkbox checkbox">
+												<input id="c_1" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_1" class="checkbox__label"><span class="checkbox__text">Coats<small>(16)</small> </span></label>
+											</div>
+											<div class="item-filter-catalog__checkbox checkbox">
+												<input id="c_2" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_2" class="checkbox__label"><span class="checkbox__text">Jackets<small>(12)</small> </span></label>
+											</div>
+											<div class="item-filter-catalog__checkbox checkbox">
+												<input id="c_3" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_3" class="checkbox__label"><span class="checkbox__text">Suits<small>(5)</small> </span></label>
+											</div>
+											<div class="item-filter-catalog__checkbox checkbox">
+												<input id="c_4" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_4" class="checkbox__label"><span class="checkbox__text">Dresses<small>(11)</small> </span></label>
+											</div>
+											<div class="item-filter-catalog__checkbox checkbox">
+												<input id="c_5" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_5" class="checkbox__label"><span class="checkbox__text">Cardigans & sweaters<small>(18)</small> </span></label>
+											</div>
+											<div class="item-filter-catalog__checkbox checkbox">
+												<input id="c_6" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_6" class="checkbox__label"><span class="checkbox__text">Sweatshirts & hoodies<small>(21)</small> </span></label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="filter-catalog__item item-filter-catalog">
+									<button type="button" data-spoller class="price-filter__title _icon-spoller">Size</button>
+									<div class="catalog__item">
+										<div class="item-filter-catalog__body">
+											<div class="item-filter-catalog__checkbox checkbox">
+												<input id="c_7" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_7" class="checkbox__label"><span class="checkbox__text">XS<small>(16)</small> </span></label>
+											</div>
+											<div class="item-filter-catalog__checkbox checkbox">
+												<input id="c_8" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_8" class="checkbox__label"><span class="checkbox__text">S<small>(12)</small> </span></label>
+											</div>
+											<div class="item-filter-catalog__checkbox checkbox">
+												<input id="c_9" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_9" class="checkbox__label"><span class="checkbox__text">M<small>(5)</small> </span></label>
+											</div>
+											<div class="item-filter-catalog__checkbox checkbox">
+												<input id="c_10" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_10" class="checkbox__label"><span class="checkbox__text">L<small>(11)</small> </span></label>
+											</div>
+											<div class="item-filter-catalog__checkbox checkbox">
+												<input id="c_11" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_11" class="checkbox__label"><span class="checkbox__text">XL<small>(18)</small> </span></label>
+											</div>
+											<div class="item-filter-catalog__checkbox checkbox">
+												<input id="c_12" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_12" class="checkbox__label"><span class="checkbox__text">Plus Size<small>(21)</small> </span></label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="filter-catalog__item item-filter-catalog">
+									<button type="button" data-spoller class="price-filter__title _icon-spoller">Color</button>
+									<div class="catalog__item">
+										<div class="item-filter-catalog__body">
+											<div class="item-filter-catalog__items">
+												<a href="" class="item-filter-catalog__labels">
+													<div class="item-filter-catalog__label item-filter-catalog__label_1"></div>
+													<div class="item-filter-catalog__text">Black</div>
+												</a>
+												<a href="" class="item-filter-catalog__labels">
+													<div class="item-filter-catalog__label item-filter-catalog__label_2"></div>
+													<div class="item-filter-catalog__text">Blue-gray</div>
+												</a>
+												<a href="" class="item-filter-catalog__labels">
+													<div class="item-filter-catalog__label item-filter-catalog__label_3"></div>
+													<div class="item-filter-catalog__text">Yellow</div>
+												</a>
+												<a href="" class="item-filter-catalog__labels">
+													<div class="item-filter-catalog__label item-filter-catalog__label_4"></div>
+													<div class="item-filter-catalog__text">Red</div>
+												</a>
+												<a href="" class="item-filter-catalog__labels">
+													<div class="item-filter-catalog__label item-filter-catalog__label_5"></div>
+													<div class="item-filter-catalog__text">Dark blue</div>
+												</a>
+												<a href="" class="item-filter-catalog__labels">
+													<div class="item-filter-catalog__label item-filter-catalog__label_6"></div>
+													<div class="item-filter-catalog__text">Beige</div>
+												</a>
+												<a href="" class="item-filter-catalog__labels">
+													<div class="item-filter-catalog__label item-filter-catalog__label_7"></div>
+													<div class="item-filter-catalog__text">Brown</div>
+												</a>
+												<a href="" class="item-filter-catalog__labels">
+													<div class="item-filter-catalog__label item-filter-catalog__label_8"></div>
+													<div class="item-filter-catalog__text">Gray</div>
+												</a>
+												<a href="" class="item-filter-catalog__labels">
+													<div class="item-filter-catalog__label item-filter-catalog__label_9"></div>
+													<div class="item-filter-catalog__text">Purple</div>
+												</a>
+												<a href="" class="item-filter-catalog__labels">
+													<div class="item-filter-catalog__label item-filter-catalog__label_10"></div>
+													<div class="item-filter-catalog__text">Green</div>
+												</a>
+												<a href="" class="item-filter-catalog__labels">
+													<div class="item-filter-catalog__label item-filter-catalog__label_11"></div>
+													<div class="item-filter-catalog__text">Orange</div>
+												</a>
+												<a href="" class="item-filter-catalog__labels">
+													<div class="item-filter-catalog__label item-filter-catalog__label_12"></div>
+													<div class="item-filter-catalog__text">White</div>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="filter-catalog__item item-filter-catalog">
+									<button type="button" data-spoller class="price-filter__title _icon-spoller">Material</button>
+									<div class="catalog__item">
+										<div class="catalog__search">
+											<form action="#" class="catalog-search">
+												<input type="text" name="form[email]" data-error="Error" placeholder="Search the clothes type" class="catalog-search__input">
+												<button type="submit" class="filter-catalog-search__button _icon-search"></button>
+											</form>
+										</div>
+										<div class="item-filter-catalog__body">
+											<div class="item-filter-catalog__checkbox checkbox">
+												<input id="c_13" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_13" class="checkbox__label"><span class="checkbox__text">Cotton<small>(162)</small> </span></label>
+											</div>
+											<div class="item-filter-catalog__checkbox checkbox">
+												<input id="c_14" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_14" class="checkbox__label"><span class="checkbox__text">Synthetics<small>(12)</small> </span></label>
+											</div>
+											<div class="item-filter-catalog__checkbox checkbox">
+												<input id="c_15" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_15" class="checkbox__label"><span class="checkbox__text">Nappa leather<small>(26)</small> </span></label>
+											</div>
+											<div class="item-filter-catalog__checkbox checkbox">
+												<input id="c_16" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_16" class="checkbox__label"><span class="checkbox__text">Leather<small>(5)</small> </span></label>
+											</div>
+											<div class="item-filter-catalog__checkbox checkbox">
+												<input id="c_17" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_17" class="checkbox__label"><span class="checkbox__text">Cashmere<small>(41)</small> </span></label>
+											</div>
+											<div class="item-filter-catalog__checkbox checkbox">
+												<input id="c_18" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_18" class="checkbox__label"><span class="checkbox__text">Denim<small>(48)</small> </span></label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="filter-catalog__item item-filter-catalog">
+									<button type="button" data-spoller class="price-filter__title _icon-spoller">Brands</button>
+									<div class="catalog__item">
+										<div class="catalog__search">
+											<form action="#" class="catalog-search">
+												<input type="text" name="form[email]" data-error="Error" placeholder="Search the clothes type" class="catalog-search__input">
+												<button type="submit" class="filter-catalog-search__button _icon-search"></button>
+											</form>
+										</div>
+										<div class="item-filter-catalog__body">
+											<div class="item-filter-catalog__checkbox checkbox">
+												<input id="c_19" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_19" class="checkbox__label"><span class="checkbox__text">Adidas<small>(162)</small> </span></label>
+											</div>
+											<div class="item-filter-catalog__checkbox checkbox">
+												<input id="c_20" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_20" class="checkbox__label"><span class="checkbox__text">Ann Teylor<small>(12)</small> </span></label>
+											</div>
+											<div class="item-filter-catalog__checkbox checkbox">
+												<input id="c_21" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_21" class="checkbox__label"><span class="checkbox__text">Armani<small>(26)</small> </span></label>
+											</div>
+											<div class="item-filter-catalog__checkbox checkbox">
+												<input id="c_22" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_22" class="checkbox__label"><span class="checkbox__text">Banana Republic<small>(5)</small> </span></label>
+											</div>
+											<div class="item-filter-catalog__checkbox checkbox">
+												<input id="c_23" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_23" class="checkbox__label"><span class="checkbox__text">Calvin Klein<small>(41)</small> </span></label>
+											</div>
+											<div class="item-filter-catalog__checkbox checkbox">
+												<input id="c_24" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_24" class="checkbox__label"><span class="checkbox__text">Columbia<small>(48)</small> </span></label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="filter-catalog__price price-filter">
+									<button type="button" data-spoller class="price-filter__title _icon-spoller">Price</button>
+									<div data-range class="price-filter__body">
+										<div data-range-item class="price-filter__range"></div>
+										<div class="price-filter__inputs">
+											<input data-range-from="0" autocomplete="off" type="text" value="480" name="form[]" class="price-filter__input">
+											<input data-range-to="1000" autocomplete="off" type="text" value="800" name="form[]" class="price-filter__input">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="catalog__content">
+							<div class="catalog__products">
+								<article class="item-trending">
+									<a href="" class="item-trending__image-ibg">
+										<picture><source srcset="img/trending/01.webp" type="image/webp"><img src="img/trending/01.jpg" alt="Image"></picture>
+									</a>
+									<div class="item-trending__body">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value"></div>
+											<div class="rating__reviews">3 reviews</div>
+										</div>
+										<h3 class="item-trending__title">
+											<a href="" class="item-trending__link-title">Shirt with insertion lace trims</a>
+										</h3>
+										<div class="item-trending__footer">
+											<div class="item-trending__price">$49.95</div>
+											<a href="" class="item-trending__link _icon-favorite"></a>
+										</div>
+									</div>
+								</article>
+								<article class="item-arrivals">
+									<a href="" class="item-arrivals__image-ibg">
+										<picture><source srcset="img/arrivals/04.webp" type="image/webp"><img src="img/arrivals/04.jpg" alt="Image"></picture>
+									</a>
+									<div class="item-arrivals__body">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value"></div>
+											<div class="rating__review">3 reviews</div>
+										</div>
+										<h3 class="item-arrivals__title">
+											<a href="" class="item-arrivals__link-title">Mid-rise slim cropped fit jeans</a>
+										</h3>
+										<div class="item-arrivals__footer">
+											<div class="item-arrivals__price">$40.00</div>
+											<a href="" class="item-arrivals__link _icon-favorite"></a>
+										</div>
+									</div>
+								</article>
+								<article class="item-arrivals">
+									<a href="" class="item-arrivals__image-ibg">
+										<picture><source srcset="img/arrivals/01.webp" type="image/webp"><img src="img/arrivals/01.jpg" alt="Image"></picture>
+									</a>
+									<div class="item-arrivals__body">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value"></div>
+											<div class="rating__review">5 reviews</div>
+										</div>
+										<h3 class="item-arrivals__title">
+											<a href="" class="item-arrivals__link-title">Black and white sport cap</a>
+										</h3>
+										<div class="item-arrivals__footer">
+											<div class="item-arrivals__price">$18.15</div>
+											<a href="" class="item-arrivals__link _icon-favorite"></a>
+										</div>
+									</div>
+								</article>
+								<article class="item-arrivals">
+									<a href="" class="item-arrivals__image-ibg">
+										<picture><source srcset="img/arrivals/03.webp" type="image/webp"><img src="img/arrivals/03.jpg" alt="Image"></picture>
+									</a>
+									<div class="item-arrivals__body">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value"></div>
+											<div class="rating__review">15 reviews</div>
+										</div>
+										<h3 class="item-arrivals__title">
+											<a href="" class="item-arrivals__link-title">Green baby romper</a>
+										</h3>
+										<div class="item-arrivals__footer">
+											<div class="item-arrivals__price">$20.40</div>
+											<a href="" class="item-arrivals__link _icon-favorite"></a>
+										</div>
+									</div>
+								</article>
+								<article class="item-trending">
+									<a href="" class="item-trending__image-ibg">
+										<picture><source srcset="img/trending/03.webp" type="image/webp"><img src="img/trending/03.jpg" alt="Image"></picture>
+									</a>
+									<div class="item-trending__body">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value"></div>
+											<div class="rating__reviews">10 reviews</div>
+										</div>
+										<h3 class="item-trending__title">
+											<a href="" class="item-trending__link-title">Check coat with colour contrast</a>
+										</h3>
+										<div class="item-trending__footer">
+											<div class="item-trending__price">$183.45</div>
+											<a href="" class="item-trending__link _icon-favorite"></a>
+										</div>
+									</div>
+								</article>
+								<article class="item-arrivals">
+									<a href="" class="item-arrivals__image-ibg">
+										<picture><source srcset="img/arrivals/05.webp" type="image/webp"><img src="img/arrivals/05.jpg" alt="Image"></picture>
+									</a>
+									<div class="item-arrivals__body">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value"></div>
+											<div class="rating__review">30 reviews</div>
+										</div>
+										<h3 class="item-arrivals__title">
+											<a href="" class="item-arrivals__link-title">Red dangle earrings</a>
+										</h3>
+										<div class="item-arrivals__footer">
+											<div class="item-arrivals__price">$29.95</div>
+											<a href="" class="item-arrivals__link _icon-favorite"></a>
+										</div>
+									</div>
+								</article>
+								<article class="item-trending">
+									<a href="" class="item-trending__image-ibg">
+										<picture><source srcset="img/trending/02.webp" type="image/webp"><img src="img/trending/02.jpg" alt="Image"></picture>
+									</a>
+									<div class="item-trending__body">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value"></div>
+											<div class="rating__reviews">16 reviews</div>
+										</div>
+										<h3 class="item-trending__title">
+											<a href="" class="item-trending__link-title">Chrono watch with blue leather belt</a>
+										</h3>
+										<div class="item-trending__footer">
+											<div class="item-trending__price">$120.60</div>
+											<a href="" class="item-trending__link _icon-favorite"></a>
+										</div>
+									</div>
+								</article>
+								<article class="item-arrivals">
+									<a href="" class="item-arrivals__image-ibg">
+										<picture><source srcset="img/arrivals/06.webp" type="image/webp"><img src="img/arrivals/06.jpg" alt="Image"></picture>
+									</a>
+									<div class="item-arrivals__body">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value"></div>
+											<div class="rating__review">22 reviews</div>
+										</div>
+										<h3 class="item-arrivals__title">
+											<a href="" class="item-arrivals__link-title">Baby shoes with laces</a>
+										</h3>
+										<div class="item-arrivals__footer">
+											<div class="item-arrivals__price">$30.60</div>
+											<a href="" class="item-arrivals__link _icon-favorite"></a>
+										</div>
+									</div>
+								</article>
+								<div class="sale__item item-sale">
+									<div class="item-sale__sale">-50%</div>
+									<a href="" class="item-sale__image-ibg">
+										<picture><source srcset="img/catalog/01.webp" type="image/webp"><img src="img/catalog/01.jpg" alt="Image"></picture>
+									</a>
+									<div class="item-sale__body">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value"></div>
+											<div class="rating__reviews">52 revies</div>
+										</div>
+										<h3 class="item-sale__title">
+											<a href="" class="item-sale__link-title">Basic hooded sweatshirt in pink</a>
+										</h3>
+										<div class="item-sale__footer">
+											<div class="item-sale__price">$15.50<s>$31.00</s></div>
+											<a href="" class="item-sale__link _icon-favorite"></a>
+										</div>
+									</div>
+								</div>
+								<div class="sale__item item-sale">
+									<div class="item-sale__sale">-50%</div>
+									<a href="" class="item-sale__image-ibg">
+										<picture><source srcset="img/sale/02.webp" type="image/webp"><img src="img/sale/02.jpg" alt="Image"></picture>
+									</a>
+									<div class="item-sale__body">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value"></div>
+											<div class="rating__reviews">22 revies</div>
+										</div>
+										<h3 class="item-sale__title">
+											<a href="" class="item-sale__link-title">Skinny push-up jeans</a>
+										</h3>
+										<div class="item-sale__footer">
+											<div class="item-sale__price">$40.00<s>$80.00</s></div>
+											<a href="" class="item-sale__link _icon-favorite"></a>
+										</div>
+									</div>
+								</div>
+								<div class="sale__item item-sale">
+									<div class="item-sale__sale">-50%</div>
+									<a href="" class="item-sale__image-ibg">
+										<picture><source srcset="img/sale/01.webp" type="image/webp"><img src="img/sale/01.jpg" alt="Image"></picture>
+									</a>
+									<div class="item-sale__body">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value"></div>
+											<div class="rating__reviews">5 revies</div>
+										</div>
+										<h3 class="item-sale__title">
+											<a href="" class="item-sale__link-title">Leather crossbody bag with gold hardware</a>
+										</h3>
+										<div class="item-sale__footer">
+											<div class="item-sale__price">$89.50<s>$179.00</s></div>
+											<a href="" class="item-sale__link _icon-favorite"></a>
+										</div>
+									</div>
+								</div>
+								<article class="item-trending">
+									<a href="" class="item-trending__image-ibg">
+										<picture><source srcset="img/catalog/02.webp" type="image/webp"><img src="img/catalog/02.jpg" alt="Image"></picture>
+									</a>
+									<div class="item-trending__body">
+										<div class="rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value"></div>
+											<div class="rating__reviews">17 reviews</div>
+										</div>
+										<h3 class="item-trending__title">
+											<a href="" class="item-trending__link-title">Men fashion gray shoes</a>
+										</h3>
+										<div class="item-trending__footer">
+											<div class="item-trending__price">$85.50</div>
+											<a href="" class="item-trending__link _icon-favorite"></a>
+										</div>
+									</div>
+								</article>
+							</div>
+							<div class="catalog__pagging pagging">
+								<button disabled type="button" class="pagging__arrow pagging__arrow_left _icon-swiper-arrow"></button>
+								<ul class="pagging__list">
+									<li class="pagging__item">
+										<a href="" class="pagging__link active">1</a>
+									</li>
+									<li class="pagging__item">
+										<a href="" class="pagging__link">2</a>
+									</li>
+									<li class="pagging__item">
+										<a href="" class="pagging__link">3</a>
+									</li>
+									<li class="pagging__item">
+										<a href="" class="pagging__link">...</a>
+									</li>
+									<li class="pagging__item">
+										<a href="" class="pagging__link">10</a>
+									</li>
+								</ul>
+								<button type="button" class="pagging__arrow pagging__arrow_right _icon-swiper-arrow"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="page__subscribe subscribe">
+				<div class="subscribe__container">
+					<div class="subscribe__content">
+						<div class="subscribe__body">
+							<h2 class="subscribe__title title">Subscribe for updates</h2>
+							<div class="subscribe__text">Subscribe for exclusive early sale access and new arrivals.</div>
+							<div class="subscribe__buttons">
+								<button type="button" class="subscribe__button">Women</button>
+								<button type="button" class="subscribe__button">Men</button>
+								<button type="button" class="subscribe__button">Girls</button>
+								<button type="button" class="subscribe__button">Boys</button>
+							</div>
+							<div class="subscribe__form form">
+								<form action="#" class="form__subscribe subscribe">
+									<label class="form__label">Email</label>
+									<div class="form__line">
+										<input type="text" name="form[]" data-error="Error" data-required="email" placeholder="Your working email" class="form__input">
+										<button type="submit" class="form__button">Subscribe</button>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="subscribe__image">
+							<picture><source srcset="img/subscribe/01.webp" type="image/webp"><img src="img/subscribe/01.png" alt="Image"></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body body-footer">
+					<div class="body-footer__item item-footer">
+						<div data-spollers="767.98" class="item-footer__spoller spoller-item-footer">
+							<div class="spoller-item-footer__item">
+								<button type="button" data-spoller class="spoller-item-footer__title">Help</button>
+								<div class="spoller-item-footer__body">
+									<nav class="menu-footer">
+										<ul class="menu-footer__list">
+											<li class="menu-footer__item">
+												<a href="" class="menu-footer__link">Delivery & returns</a>
+											</li>
+											<li class="menu-footer__item">
+												<a href="" class="menu-footer__link">FAQ</a>
+											</li>
+											<li class="menu-footer__item">
+												<a href="" class="menu-footer__link">Track order</a>
+											</li>
+											<li class="menu-footer__item">
+												<a href="" class="menu-footer__link">Contacts</a>
+											</li>
+											<li class="menu-footer__item">
+												<a href="" class="menu-footer__link">Blog</a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="body-footer__item item-footer">
+						<div data-spollers="767.98" class="item-footer__spoller spoller-item-footer">
+							<div class="spoller-item-footer__item">
+								<button type="button" data-spoller class="spoller-item-footer__title">Shop</button>
+								<div class="spoller-item-footer__body">
+									<nav class="menu-footer">
+										<ul class="menu-footer__list">
+											<li class="menu-footer__item">
+												<a href="" class="menu-footer__link">New arrivals</a>
+											</li>
+											<li class="menu-footer__item">
+												<a href="" class="menu-footer__link">Trending now</a>
+											</li>
+											<li class="menu-footer__item">
+												<a href="" class="menu-footer__link">Sales</a>
+											</li>
+											<li class="menu-footer__item">
+												<a href="" class="menu-footer__link">Brands</a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="body-footer__item item-footer">
+						<div data-spollers="767.98" class="item-footer__spoller spoller-item-footer">
+							<div class="spoller-item-footer__item">
+								<button type="button" data-spoller class="spoller-item-footer__title">Get in touch</button>
+								<div class="spoller-item-footer__body">
+									<div class="spoller-item-footer__content">
+										<a href="tel:4055550128" class="spoller-item-footer__link">Call:<span>(405) 555-0128</span></a>
+										<a href="mailto:hello@createx.com" class="spoller-item-footer__link">Email:<span>hello@createx.com</span></a>
+									</div>
+									<div class="spoller-item-footer__social social">
+										<a href="" class="social__link _icon-facebook"></a>
+										<a href="" class="social__link _icon-instagram"></a>
+										<a href="" class="social__link _icon-twitter"></a>
+										<a href="" class="social__link _icon-youtube"></a>
+										<a href="" class="social__link _icon-pinterest"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="body-footer__item item-footer">
+						<div data-spollers="767.98" class="item-footer__spoller spoller-item-footer">
+							<div class="spoller-item-footer__item">
+								<button type="button" data-spoller class="spoller-item-footer__title">Download our app</button>
+								<div class="spoller-item-footer__body">
+									<div class="spoller-item-footer__apps apps">
+										<a href="" class="apps__link">
+											<picture><source srcset="img/app-store.webp" type="image/webp"><img src="img/app-store.png" alt="App-store"></picture>
+										</a>
+										<a href="" class="apps__link">
+											<picture><source srcset="img/google-play.webp" type="image/webp"><img src="img/google-play.png" alt="Google-play"></picture>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__copy">
+					<div class="footer__content">
+						<div class="footer__text">© All rights reserved. </div>
+						<div class="footer__icon _icon-favorite"></div>
+						<div class="footer__text">by Createx Studio</div>
+					</div>
+					<button type="button" class="footer__up">Go to top</button>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230521180340"></script>
+</body>
+
+</html>
